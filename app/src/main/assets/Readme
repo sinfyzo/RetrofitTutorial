@@ -1,0 +1,16 @@
+# Getting Started with Retrofit
+# URL: https://www.youtube.com/watch?v=R4XU8yPzSx0&list=PLpUMhvC6l7APq7y_FFfK-GEHvcUKqo6SC&index=1
+# Problem: List down open-source GitHub repos.
+# Steps:
+1) Add permission for Internet in Menifest
+2) Add Retrofit dependancy in app.gradle
+3) Create Model class
+4) Create Retrofit Client interface
+5) Create Adapter for list
+6) Create Class and layout from which api call will made
+    1) Create Retrofit Builder object with baseUrl and GsonConverterFactory
+    2) Create Retrofit Object
+    3) Create Api client object
+    4) Call api method from Api client object
+    5) Actual call api with Callback object
+------------------------------------------------------------------------------------------------------
